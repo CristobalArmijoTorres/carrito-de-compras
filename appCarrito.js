@@ -98,14 +98,14 @@ function agregarItemAlCarrito(titulo, precio, imagenSrc){
             <div class="carrito-item-detalles">
                 <span class="carrito-item-titulo">${titulo}</span>
                 <div class="selector-cantidad">
-                    <i class="fa-solid fa-minus restar-cantidad"></i>
+                    <i class="bi bi-dash restar-cantidad"></i>
                     <input type="text" value="1" class="carrito-item-cantidad" disabled>
-                    <i class="fa-solid fa-plus sumar-cantidad"></i>
+                    <i class="bi bi-plus sumar-cantidad"></i>
                 </div>
                 <span class="carrito-item-precio">${precio}</span>
             </div>
             <button class="btn-eliminar">
-                <i class="fa-solid fa-trash"></i>
+                <i class="bi bi-trash"></i>
             </button>
         </div>
     `
